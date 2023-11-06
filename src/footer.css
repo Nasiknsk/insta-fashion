@@ -1,0 +1,23 @@
+.cont{
+    display:flex;
+    flex-direction:column;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+}
+.containers{
+    background-color: brown;
+}
+
+input[type="tel"],
+textarea {
+  border-radius: 10px;
+  background-color: brown; /* You can adjust the value to increase or decrease the roundness */
+  width: 80px;
+  margin-left: 20px;
+  /* Add other styles as needed */
+}
+li{
+    list-style-type: none;
+}

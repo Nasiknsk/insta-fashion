@@ -1,0 +1,39 @@
+
+  
+  .image-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+   
+    z-index: 1;
+    background-color: rgba(34, 36, 38, 0.7);
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0 150px;
+    object-fit: cover;
+    z-index: 2;
+    transition: transform 0.5s ease;
+    background-image: url('brown.jpeg');
+    
+   
+  }
+  
+  .image:hover {
+    transform: rotate(10deg);
+  }
+  
+  
+  

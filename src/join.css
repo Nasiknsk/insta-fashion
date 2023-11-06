@@ -1,0 +1,18 @@
+.image-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  

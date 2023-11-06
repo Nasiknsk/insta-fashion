@@ -1,0 +1,6 @@
+.rotate {
+    transform: rotate(10deg);
+    object-fit: cover;
+    height: 100%;
+  }
+  

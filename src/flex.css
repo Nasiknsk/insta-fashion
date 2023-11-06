@@ -1,0 +1,14 @@
+.conts{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    text-align: left;
+}
+.arrange{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-top: 30px;
+}

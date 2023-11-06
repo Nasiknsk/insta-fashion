@@ -1,0 +1,14 @@
+.image-card {
+    height: 300px; /* Set the desired height for the images */
+    object-fit: cover; /* This property ensures the image covers the specified height and width without stretching */
+  }.card-body {
+    width: 100%;
+  }
+  .custom-description-box {
+    width: 80%;
+  }
+.set{
+  display: flex;
+  background-color: blue;
+  width: 700px;
+}  
